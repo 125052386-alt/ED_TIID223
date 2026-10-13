@@ -19,7 +19,7 @@ matriz[0].pop(2)
 print(matriz) """
 
 """ Ejemplo de Colas """
-from collections import deque 
+""" from collections import deque 
 
 cola=deque(["Ana", "Carlos"])
 
@@ -35,5 +35,21 @@ print("cola restante:",cola)
 atendido=cola.popleft()
 print(f"se atendio a: {atendido}")
 
-print("cola restante:",cola) 
+print("cola restante:",cola)  """
+
+""" Ejemplo de pilas """
+
+historial=[]
+historial.append("google.com")
+historial.append("youtube.com")
+historial.append("github.com")
+print("historial:",historial)
+
+pagina_actual=historial[2]
+print("Pagina actual",pagina_actual)
+
+pagina_salidad=historial.pop()
+print("saliendo de: ",pagina_salidad)
+
+print("Historial actualizado: ", historial)
 
